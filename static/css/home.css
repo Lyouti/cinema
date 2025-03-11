@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background: -webkit-linear-gradient(45deg, rgb(199, 154, 207), rgb(88, 82, 182));
+    background: -moz-linear-gradient(45deg, rgb(199, 154, 207), rgb(88, 82, 182));
+    background: linear-gradient(45deg, rgb(199, 154, 207), rgb(88, 82, 182));
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+/* .button-room {
+    
+} */
