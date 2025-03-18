@@ -3,17 +3,49 @@ html, body {
 }
 
 body {
-    background: -webkit-linear-gradient(45deg, rgb(199, 154, 207), rgb(88, 82, 182));
-    background: -moz-linear-gradient(45deg, rgb(199, 154, 207), rgb(88, 82, 182));
-    background: linear-gradient(45deg, rgb(199, 154, 207), rgb(88, 82, 182));
+    background: -webkit-linear-gradient(45deg, rgb(86, 11, 99), rgb(54, 45, 186));
+    background: -moz-linear-gradient(45deg, rgb(86, 11, 99), rgb(54, 45, 186));
+    background: linear-gradient(45deg, rgb(86, 11, 99), rgb(54, 45, 186));
+    font-family: 'Arial', 'Verdana', sans-serif;
+
 }
 
 #main {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: black; */
+    align-items: center;
+}
+
+body {
     display: flex;
     flex-direction: column;
     justify-items: center;
 }
 
-/* .button-room {
-    
-} */
+#header {
+    height: 20%;
+}
+
+#footer {
+    height: 20%;
+}
+
+#main button {
+    font-size: x-large;
+    height: 100px;
+    width: 250px;
+    background-color: rgb(10, 79, 200);
+    text-align: center;
+    border-radius:100px;
+    box-shadow: 0 5px 15px 0 rgb(10, 79, 200);
+    transition: 0.5s;
+    border: 2px solid rgb(7, 54, 135);
+}
+
+#main button:hover {
+    transform: translate(0,-3px);
+    box-shadow: 0 20px 40px 0 rgb(10, 79, 200);
+}
